@@ -34,8 +34,8 @@ spring.jpa.show-sql=true<br>
 <br>
 Compila y ejecuta la aplicación:<br>
 Usa Maven para compilar y ejecutar la aplicación:<br>
-mvn clean install<br>
-mvn spring-boot:run<br>
+mvn clean install  -DskipTests<br>
+mvn spring-boot:run  -DskipTests<br>
 La aplicación se ejecutará en http://localhost:8081.<br>
 <br>
 Uso<br>
